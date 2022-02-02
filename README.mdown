@@ -1,0 +1,34 @@
+# Exercise: 2022-02-02-berlinclock
+
+|[![Testing](https://github.com/bencsbalazs/2022-02-02-berlinclock/actions/workflows/test.yml/badge.svg)](https://github.com/bencsbalazs/2022-02-02-berlinclock/actions/workflows/test.yml)|[![Linting](https://github.com/bencsbalazs/2022-02-02-berlinclock/actions/workflows/lint.yml/badge.svg)](https://github.com/bencsbalazs/2022-02-02-berlinclock/actions/workflows/lint.yml)||
+
+> Installed with automatic script
+
+- Source file
+- Basic test file
+- Jest for testing (watch and coverage)
+- EsLint + Prettier for code style check
+- Complexity check
+
+The "Berlin Clock" is the first public clock in the world that tells the time by means of illuminated, coloured fields, for which it entered the Guinness Book of Records upon its installation on 17 June 1975.
+
+## Concept
+
+- Project stored on github
+- Flow with Git actions
+- Dockerise it
+- Deploy on local
+- Use node
+- Object Oriented
+
+## Plan
+
+- Clock write on console.
+- API to get data
+- API to send data to framework
+
+## User story 1
+
+> Given 00:00:01
+> When the clock shows the time
+> Then all it's lights are off except the first one
