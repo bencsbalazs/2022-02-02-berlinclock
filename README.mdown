@@ -31,4 +31,4 @@ The "Berlin Clock" is the first public clock in the world that tells the time by
 
 > Given 00:00:01
 > When the clock shows the time
-> Then all it's lights are off except the first one
+> Then all it's lights are off except the first one in the bottom line

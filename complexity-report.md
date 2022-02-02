@@ -11,7 +11,7 @@
 
 ## /home/balazsbencs/Apps/Learning/XPFarm/2022-02-02-berlinclock/src/2022-02-02-berlinclock.js
 
-* Physical LOC: 3
+* Physical LOC: 5
 * Logical LOC: 3
 * Mean parameter count: 0
 * Cyclomatic complexity: 1
