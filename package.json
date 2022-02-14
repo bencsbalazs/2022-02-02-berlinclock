@@ -7,7 +7,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "complexity": "cr src",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
