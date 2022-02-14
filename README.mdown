@@ -32,3 +32,11 @@ The "Berlin Clock" is the first public clock in the world that tells the time by
 > Given 00:00:01
 > When the clock shows the time
 > Then all it's lights are off except the first one in the bottom line
+
+### UAT 1
+
+- The clock should return a two dimensional array.
+
+### UAT 2
+
+- The first element of the array is the seconds. Should be O if Light of or Y is it is on.

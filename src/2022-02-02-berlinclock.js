@@ -1,5 +1,8 @@
-const berlinclock = (time) => {
-  return true;
-};
+class BerlinClock {
+  constructor(time) {
+    this.time = time;
+    this.result = [[]];
+  }
+}
 
-module.exports = { berlinclock };
+module.exports = { BerlinClock };
