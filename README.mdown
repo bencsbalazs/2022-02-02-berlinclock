@@ -1,6 +1,6 @@
 # Exercise: 2022-02-02-berlinclock
 
-|[![Testing](https://github.com/bencsbalazs/2022-02-02-berlinclock/actions/workflows/test.yml/badge.svg)](https://github.com/bencsbalazs/2022-02-02-berlinclock/actions/workflows/test.yml)|[![Linting](https://github.com/bencsbalazs/2022-02-02-berlinclock/actions/workflows/lint.yml/badge.svg)](https://github.com/bencsbalazs/2022-02-02-berlinclock/actions/workflows/lint.yml)||
+|[![Testing](https://github.com/bencsbalazs/2022-02-02-berlinclock/actions/workflows/test.yml/badge.svg)](https://github.com/bencsbalazs/2022-02-02-berlinclock/actions/workflows/test.yml)|[![Linting](https://github.com/bencsbalazs/2022-02-02-berlinclock/actions/workflows/lint.yml/badge.svg)](https://github.com/bencsbalazs/2022-02-02-berlinclock/actions/workflows/lint.yml)|[![coverage](https://github.com/bencsbalazs/2022-02-02-berlinclock/actions/workflows/coverage.yml/badge.svg)](https://github.com/bencsbalazs/2022-02-02-berlinclock/actions/workflows/coverage.yml)|
 
 > Installed with automatic script
 
@@ -48,3 +48,15 @@ The "Berlin Clock" is the first public clock in the world that tells the time by
 ### UAT 6
 
 - The 3rd elements of the array are the hours over the five hours. Should be red light after each of the hours that passed.
+
+### UAT 7
+
+- The 4th element of the array is marking the five minutes. It has 11 element, and every third one should be red.
+
+### UAT 8
+
+- The fifth element of the array is marking the minutes between the five minutes. Every element should be yellow light after a minute has passed.
+
+### UAT 9
+
+- The berlin clock should show the time in all the five rows.

@@ -35,4 +35,53 @@ describe('User story 1', () => {
     const actualClock = new BerlinClock('08:00:01');
     expect(actualClock.result[2]).toEqual(['R', 'R', 'R', 'O']);
   });
+
+  it('Between 10 and 14 minutes it should return two "y" and 9 "O"', () => {
+    const actualClock = new BerlinClock('00:12:00');
+    expect(actualClock.result[3]).toEqual([
+      'Y',
+      'Y',
+      'O',
+      'O',
+      'O',
+      'O',
+      'O',
+      'O',
+      'O',
+      'O',
+      'O',
+    ]);
+  });
+
+  it('Between 15 and 20 minutes it should return two "y", 1 "R" and 8 "O"', () => {
+    const actualClock = new BerlinClock('00:16:00');
+    expect(actualClock.result[3]).toEqual([
+      'Y',
+      'Y',
+      'R',
+      'O',
+      'O',
+      'O',
+      'O',
+      'O',
+      'O',
+      'O',
+      'O',
+    ]);
+  });
+
+  it('Between 16 and 17 minutes it should return one "Y" and 3 "O"', () => {
+    const actualClock = new BerlinClock('00:16:00');
+    expect(actualClock.result[4]).toEqual(['Y', 'O', 'O', 'O']);
+  });
+  it('The berlin clock should show the time in all the five rows', () => {
+    const actualClock = new BerlinClock('12:56:01');
+    expect(actualClock.result).toEqual([
+      ['O'],
+      ['R', 'R', 'O', 'O'],
+      ['R', 'R', 'O', 'O'],
+      ['Y', 'Y', 'R', 'Y', 'Y', 'R', 'Y', 'Y', 'R', 'Y', 'Y'],
+      ['Y', 'O', 'O', 'O'],
+    ]);
+  });
 });

@@ -1,4 +1,4 @@
-# Complexity report, 2/14/2022
+# Complexity report, 2/15/2022
 
 * Mean per-function logical LOC: 2
 * Mean per-function parameter count: 0
@@ -11,7 +11,7 @@
 
 ## /home/balazsbencs/Apps/Learning/XPFarm/2022-02-02-berlinclock/src/2022-02-02-berlinclock.js
 
-* Physical LOC: 48
+* Physical LOC: 66
 * Logical LOC: 2
 * Mean parameter count: 0
 * Cyclomatic complexity: 1
