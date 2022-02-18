@@ -15,11 +15,10 @@ class BerlinClock {
   }
 
   secondElement() {
-    const hours = this.time[0];
     const result = [];
     // eslint-disable-next-line no-plusplus
     for (let i = 0; i < 4; i++) {
-      if (i < Math.trunc(hours / 5)) {
+      if (i < Math.trunc(this.time[0] / 5)) {
         result.push('R');
       } else {
         result.push('O');
@@ -55,6 +54,7 @@ class BerlinClock {
 
   fifthElement(minutes = this.time[1]) {
     const result = [];
+    // eslint-disable-next-line no-plusplus
     for (let i = 0; i < 4; i++) {
       result.push(i < Math.trunc(minutes % 5) ? 'Y' : 'O');
     }

@@ -60,3 +60,32 @@ The "Berlin Clock" is the first public clock in the world that tells the time by
 ### UAT 9
 
 - The berlin clock should show the time in all the five rows.
+
+## Command line representation
+
+### Scenario 1
+
+- We call the berlin clock with an input time. It will return a two dimensional array of the clock.
+- The input is read from the console.
+- The result will be drawn on console.
+
+## API creation
+
+### Requirements
+
+- API needs an input.
+
+- The berlin clock API should respond to an input.
+-
+
+/\*\*
+
+API requirements for Integrating an API
+On this page.
+The API has a valid descriptor document.
+API descriptor document endpoint is accessible.
+API accepts basic auth or OAuth2 if hosted on certain Google services.
+Supports Create, Read, Update, Delete (CRUD) operations.
+All path and query parameters resolve successfully.
+
+\*/

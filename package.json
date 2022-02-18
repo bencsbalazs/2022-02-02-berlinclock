@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/bencsbalazs/2022-02-02-berlinclock#readme",
   "dependencies": {
-    "chai": "^4.3.4"
+    "chai": "^4.3.4",
+    "prompt": "^1.2.1"
   },
   "devDependencies": {
     "complexity-report": "*",
