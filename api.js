@@ -8,7 +8,6 @@ app.get('/', (req, res) => {
   if (time) {
     const berlinClock = new BerlinClock(time);
     res.status(200).json({ berlinClock: berlinClock.result });
-    res.write({ berlinClock: berlinClock.result });
   } else {
     res.status(200).json({});
   }

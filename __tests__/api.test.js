@@ -1,5 +1,4 @@
 const request = require('supertest');
-const assert = require('assert');
 const { app } = require('../api');
 
 describe('Test the API accessibility', () => {
