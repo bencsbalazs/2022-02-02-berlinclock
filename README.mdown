@@ -73,19 +73,21 @@ The "Berlin Clock" is the first public clock in the world that tells the time by
 
 ### Requirements
 
+- The API needs to be accessible
+- It requires no authentication
 - API needs an input.
-
+- The input should be a query parameter in a GET request.
 - The berlin clock API should respond to an input.
--
+- The berlin clock API accepts a well formed time input.
+- The response will contain the display of the berlin clock in a two dimensional array.
+- The input format should be HH:mm:ss
+- The API should be available on the "/api" url, on port 8080.
+- The output is a two dimensional array.
+- The output status should be 200
+- The output response type will be text/HTML.
 
-/\*\*
+### Test API accessibility
 
-API requirements for Integrating an API
-On this page.
-The API has a valid descriptor document.
-API descriptor document endpoint is accessible.
-API accepts basic auth or OAuth2 if hosted on certain Google services.
-Supports Create, Read, Update, Delete (CRUD) operations.
-All path and query parameters resolve successfully.
-
-\*/
+- Given a running berlin clock server
+- When API is called with url "/api" on port 8080,
+- then it will respond.
